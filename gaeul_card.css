@@ -1,0 +1,56 @@
+.card_wrapper{
+    background: #201E1F;
+    color :#CDBCA8;
+    width: 700px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.profile_photo_img{
+    width: 200px;
+}
+
+.profile_photo_img:hover{
+    box-shadow: 5px 5px #cdbca8ae;
+}
+
+
+
+.card_bottom_border{
+    border-bottom-style: solid;
+    border-bottom-color: #CDBCA8;
+    border-bottom-width: 8.5px;
+
+    border-right-style: solid;
+    border-right-color: #CDBCA8;
+    border-right-width: 8.5px;
+
+    border-left-style: solid;
+    border-left-color: #CDBCA8;
+    border-left-width: 8.5px;
+
+    border-top-style: solid;
+    border-top-color: #CDBCA8;
+    border-top-width: 8.5px;
+}
+
+.info_class{
+    text-align: center;
+}
+
+.lyrics{
+    color: #CDBCA8;
+    background-color: #201E1F; /*not inherited*/
+    text-align: right;
+    width: 250px;
+    font-size: 14px;
+}
